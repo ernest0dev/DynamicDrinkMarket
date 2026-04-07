@@ -48,10 +48,12 @@ The more a drink is ordered, the higher its price rises. Drinks with lower deman
 
 Detailed technical documentation is available in the `/docs` directory:
 
-- System overview
-- Pricing engine logic
-- Data model
-- Technical decisions
+| Document | Description |
+|----------|-------------|
+| [System Overview](docs/system-overview.md) | Problem, approach, system flow, and core components |
+| [Pricing Engine](docs/pricing-engine.md) | Demand calculation, pricing formula, and constraints |
+| [Data Model](docs/data-model.md) | Drink and Order entities, relationships, and data structures |
+| [Tech Stack](docs/tech-stack.md) | Technology decisions and future considerations |
 
 ---
 
