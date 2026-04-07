@@ -8,7 +8,7 @@
 
 Dynamic Drink Market (DDM) is an open-source system that simulates a stock market using a bar's menu.
 
-Instead of trading stocks, customers “trade” drinks — and prices fluctuate dynamically based on demand in real time.
+Instead of trading stocks, customers "trade" drinks — and prices fluctuate dynamically based on demand in real time.
 
 The more a drink is ordered, the higher its price rises. Drinks with lower demand decrease in price, creating a dynamic and interactive experience.
 
@@ -46,14 +46,16 @@ The more a drink is ordered, the higher its price rises. Drinks with lower deman
 
 ## Documentation
 
-Detailed technical documentation is available in the `/docs` directory:
+Technical documentation is available in the `/docs` directory:
 
-| Document | Description |
-|----------|-------------|
-| [System Overview](docs/system-overview.md) | Problem, approach, system flow, and core components |
-| [Pricing Engine](docs/pricing-engine.md) | Demand calculation, pricing formula, and constraints |
-| [Data Model](docs/data-model.md) | Drink and Order entities, relationships, and data structures |
-| [Tech Stack](docs/tech-stack.md) | Technology decisions and future considerations |
+### Project Documents (`/docs/project/`)
+
+| Document | Description | Location |
+|----------|-------------|----------|
+| System Overview | Problem, approach, system flow | [docs/project/system-overview.md](docs/project/system-overview.md) |
+| Pricing Engine | Demand calculation, pricing formula | [docs/project/pricing-engine.md](docs/project/pricing-engine.md) |
+| Data Model | Entities, relationships, data structures | [docs/project/data-model.md](docs/project/data-model.md) |
+| Tech Stack | Technology decisions, stack definition | [docs/project/tech-stack.md](docs/project/tech-stack.md) |
 
 ---
 
@@ -89,7 +91,7 @@ MIT (planned)
 
 ## Inspiration
 
-Inspired by real-world “stock market bars” where drink prices fluctuate based on demand.
+Inspired by real-world "stock market bars" where drink prices fluctuate based on demand.
 
 ---
 
